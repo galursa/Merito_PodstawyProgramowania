@@ -25,6 +25,23 @@ public class LiczbyNaKolory {
 			System.out.println("Nieznany wybór");
 		}
 		
-		
+		if(nrKoloru==1)
+		{
+			System.out.println("Zielony");
+		}else if(nrKoloru==2)
+		{
+			System.out.println("Czerwony");
+		}else if(nrKoloru==3)
+		{
+			System.out.println("Fioletowy");
+		}else if(nrKoloru==4)
+		{
+			System.out.println("Czarny");
+		}else if(nrKoloru==5)
+		{
+			System.out.println("¯ó³ty");
+		}else {
+			System.out.println("Nieznany wybór");
+		}
 	}
 }

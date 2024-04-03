@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class RzeczywisteDoPliku {
 	public static void main(String[] args) throws IOException{
-		//Zapis tablicy z wartoœciami rzeczywistymi i odczyt i zapis do tablicy (jednowymiarowa)
+		//Zapis tablicy z wartoociami rzeczywistymi i odczyt i zapis do tablicy (jednowymiarowa)
 		int rozmiar = 10;
 		double liczby[] = new double[rozmiar];
 		Random rand = new Random();
@@ -27,15 +27,11 @@ public class RzeczywisteDoPliku {
 			plik.write("\n");
 		}
 		plik.close();
-		//To do odczytaæ liczbê rzeczywist¹ z pliku bo przy zmianie z int na float nie pozwala na zamianê.
+		//To do odczytaa liczbe rzeczywist1 z pliku bo przy zmianie z int na float nie pozwala na zamiane.
 		File plik2 = new File("Rzeczywiste.txt");
 		Scanner data = new Scanner(plik2);
 		int rozmiarTab2 = data.nextInt();
 		double liczba;
-		if (data.hasNextDouble()) 
-			{liczba = data.nextDouble();
-		
-		System.out.println(liczba); }
 		double liczby2[] = new double [rozmiarTab2];
 		int i=0;
 		
